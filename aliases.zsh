@@ -16,7 +16,8 @@ alias docs="lara && cd docs/"
 
 # Laravel
 alias a="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
+alias pa="php artisan"
+alias mfs="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
 
 # PHP
@@ -30,12 +31,12 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
 
 # Vagrant
-alias v="vagrant global-status"
-alias vup="vagrant up"
-alias vhalt="vagrant halt"
-alias vssh="vagrant ssh"
-alias vreload="vagrant reload"
-alias vrebuild="vagrant destroy --force && vagrant up"
+# alias v="vagrant global-status"
+# alias vup="vagrant up"
+# alias vhalt="vagrant halt"
+# alias vssh="vagrant ssh"
+# alias vreload="vagrant reload"
+# alias vrebuild="vagrant destroy --force && vagrant up"
 
 # Docker
 alias docker-composer="docker-compose"
@@ -57,3 +58,6 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+# https://laravel-news.com/bash-aliases
+# Reset code back to what is committed, and delete any files that are not known to git.
+alias nah='git reset --hard;git clean -df'
