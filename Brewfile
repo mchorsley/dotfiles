@@ -107,7 +107,6 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'SonicWall Mobile Connect', id: 822514576
 mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
 mas 'Things', id: 904280696
 mas 'Trello', id: 1278508951
-mas 'Tweetbot', id: 1384080005
+mas 'Twitter', id: 1482454543
