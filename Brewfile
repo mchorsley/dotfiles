@@ -24,22 +24,15 @@ brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
 
-# Spatie Medialibrary
-# brew 'jpegoptim'
-# brew 'optipng'
-# brew 'pngquant'
-# brew 'svgo'
-# brew 'gifsicle'
-
 # Development
 brew 'php'
 brew 'php@7.3'
 brew 'php@7.2'
 brew 'composer'
-brew 'imagemagick'
-brew 'libmemcached'
-brew 'memcached'
-brew 'mysql'
+# brew 'imagemagick'
+# brew 'libmemcached'
+# brew 'memcached'
+# brew 'mysql'
 brew 'nginx'
 brew 'node'
 brew 'redis'
@@ -63,6 +56,7 @@ cask 'google-chrome'
 # cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
+cask 'iterm2'
 cask 'notion'
 cask 'phpstorm'
 cask 'postman'
@@ -106,7 +100,7 @@ mas 'Microsoft To Do', id: 1274495053
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'SonicWall Mobile Connect', id: 822514576
-mas 'Spark', id: 1176895641
-mas 'Things', id: 904280696
+# mas 'Spark', id: 1176895641
+# mas 'Things', id: 904280696
 mas 'Trello', id: 1278508951
 mas 'Twitter', id: 1482454543

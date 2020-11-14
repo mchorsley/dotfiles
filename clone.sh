@@ -2,7 +2,7 @@
 
 echo "Cloning repositories..."
 
-SITES=$HOME/Sites
+SITES=$HOME/Development
 
 # Personal
 git clone git@github.com:mchorsley/liberty_charges.git $SITES/liberty_charges
