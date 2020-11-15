@@ -32,7 +32,8 @@ If you did all of the above you may now follow these install instructions to set
 3. Install macOS Command Line Tools by running `xcode-select --install`
 4. [Generate a new public and private SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and add them to Github.  If you are using an existing key, 'chmod 700 ~/.ssh' and 'chmod 600 ~/.ssh/id_ed25519'  
 5. Clone this repo to `~/.dotfiles`
-6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
+6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started). 
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 7. Set the computer name in .macos
 8. Run `fresh.sh` to start the installation
 9. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
