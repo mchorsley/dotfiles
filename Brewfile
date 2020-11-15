@@ -78,11 +78,11 @@ cask 'vlc'
 cask 'whatsapp'
 
 # Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+#cask 'qlcolorcode'
+#cask 'qlmarkdown'
+#cask 'quicklook-json'
+#cask 'quicklook-csv'
+#cask 'qlstephen'
 
 # Fonts
 cask 'font-lato'
